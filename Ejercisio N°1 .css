@@ -1,0 +1,55 @@
+.contenedor {
+    width: 300px;
+    height: 300px;
+    border: solid 0.5px;
+    margin: auto;
+    display: flex;
+}
+
+.contenedor2 {
+    width: 520px;
+    height: 100px;
+    border: solid 0.5px;
+    margin: auto;
+    display: flex;
+}
+
+#unico {
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#primero {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#segundo {
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.hijo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rojo {
+    background: red;
+font-style: ;
+color: antiquewhite;
+}
+
+.azul {
+    background: blue;
+    color: antiquewhite;
+}
+
+.verde {
+    background: green;
+    color: antiquewhite;
+}
